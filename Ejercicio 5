@@ -2,7 +2,7 @@ https://asciinema.org/a/687849
 
 // =========================================
 // Programa: División de dos números con entrada
-// Autor: [Tu Nombre]
+// Autor: Garcia Ornelas Juan Carlos
 // Descripción: Solicita dos números al usuario, los divide y muestra el resultado en consola
 // En idioma ensamblador y python
 // =========================================
@@ -138,12 +138,6 @@ print_str:
 
 
 Python
-
-# =========================================
-# Programa: División de dos números con entrada
-# Autor: [Tu Nombre]
-# Descripción: Solicita dos números al usuario, los divide y muestra el resultado en consola
-# =========================================
 
 def str_to_int(string):
     # Convierte una cadena a entero
