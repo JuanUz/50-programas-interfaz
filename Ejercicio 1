@@ -2,7 +2,7 @@ https://asciinema.org/a/Izj832w5VomBef1Yf2arvWBJJ
 
 // =========================================
 // Programa: Conversión de Celsius a Fahrenheit
-// Autor: Garcia Ornelas Juan Carlos
+// Autor: Garcia Ornelas Juan Carlos.
 // Descripción: Solicita una temperatura en grados Celsius, la convierte a Fahrenheit y muestra el resultado
 // Solucion en ensamblador y Python
 // =========================================
