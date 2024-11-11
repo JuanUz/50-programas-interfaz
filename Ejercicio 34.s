@@ -1,3 +1,4 @@
+/*
 https://asciinema.org/a/688681
 
 # =========================================
@@ -39,7 +40,7 @@ for elemento in arreglo:
 
 
 Ensamblador
-
+*/
 
 /*
  * Invierte los elementos de un arreglo de enteros y los imprime en consola.
