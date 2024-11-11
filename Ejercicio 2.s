@@ -1,3 +1,4 @@
+/*
 https://asciinema.org/a/687702
 
 // =========================================
@@ -5,6 +6,54 @@ https://asciinema.org/a/687702
 // Autor: Garcia Ornelas Juan Carlos.
 // Descripción: Solicita dos números al usuario, los suma y muestra el resultado en consola
 // =========================================
+
+//Python
+
+# =========================================
+# Programa: Suma de dos números con entrada
+# Autor: Garcia Ornelas Juan Carlos
+# Descripción: Solicita dos números al usuario, los suma y muestra el resultado en consola
+# =========================================
+
+def str_to_int(string):
+    # Convertir cadena a entero
+    try:
+        return int(string.strip())
+    except ValueError:
+        print("Error: Por favor, ingrese un número válido.")
+        return None
+
+def int_to_str(number):
+    # Convertir entero a cadena
+    return str(number)
+
+def main():
+    # Solicitar el primer número
+    num1_str = input("Ingrese el primer número: ")
+    num1 = str_to_int(num1_str)
+    
+    if num1 is None:
+        return  # Salir si el primer número no es válido
+    
+    # Solicitar el segundo número
+    num2_str = input("Ingrese el segundo número: ")
+    num2 = str_to_int(num2_str)
+    
+    if num2 is None:
+        return  # Salir si el segundo número no es válido
+
+    # Sumar los dos números
+    resultado = num1 + num2
+
+    # Mostrar el resultado
+    print("Resultado de la suma:", int_to_str(resultado))
+
+if __name__ == "__main__":
+    main()
+
+
+Ensamblador
+*/
 
         .section .data
 prompt1: .asciz "Ingrese el primer número: "
@@ -106,48 +155,4 @@ print_str:
         svc 0
         ret
 
-
-//Python
-
-# =========================================
-# Programa: Suma de dos números con entrada
-# Autor: Garcia Ornelas Juan Carlos
-# Descripción: Solicita dos números al usuario, los suma y muestra el resultado en consola
-# =========================================
-
-def str_to_int(string):
-    # Convertir cadena a entero
-    try:
-        return int(string.strip())
-    except ValueError:
-        print("Error: Por favor, ingrese un número válido.")
-        return None
-
-def int_to_str(number):
-    # Convertir entero a cadena
-    return str(number)
-
-def main():
-    # Solicitar el primer número
-    num1_str = input("Ingrese el primer número: ")
-    num1 = str_to_int(num1_str)
-    
-    if num1 is None:
-        return  # Salir si el primer número no es válido
-    
-    # Solicitar el segundo número
-    num2_str = input("Ingrese el segundo número: ")
-    num2 = str_to_int(num2_str)
-    
-    if num2 is None:
-        return  # Salir si el segundo número no es válido
-
-    # Sumar los dos números
-    resultado = num1 + num2
-
-    # Mostrar el resultado
-    print("Resultado de la suma:", int_to_str(resultado))
-
-if __name__ == "__main__":
-    main()
 
