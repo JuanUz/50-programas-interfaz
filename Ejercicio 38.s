@@ -1,3 +1,4 @@
+/*
 https://asciinema.org/a/688688
 
 # =========================================
@@ -31,7 +32,7 @@ print(f"El contenido de la cola es: {acumulador}")
 
 Ensamblador
 
-
+*/
 /*
  * Programa de ejemplo en ARM64: Calcula el contenido acumulado en una cola
  * utilizando un arreglo como estructura de datos.
