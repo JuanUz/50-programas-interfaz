@@ -1,3 +1,4 @@
+/*
 https://asciinema.org/a/687849
 
 // =========================================
@@ -6,6 +7,55 @@ https://asciinema.org/a/687849
 // Descripción: Solicita dos números al usuario, los divide y muestra el resultado en consola
 // En idioma ensamblador y python
 // =========================================
+
+
+Python
+
+def str_to_int(string):
+    # Convierte una cadena a entero
+    try:
+        return int(string.strip())
+    except ValueError:
+        print("Error: Por favor, ingrese un número válido.")
+        return None
+
+def int_to_str(number):
+    # Convierte un número entero a una cadena
+    return str(number)
+
+def main():
+    # Solicitar el primer número (dividendo)
+    num1_str = input("Ingrese el dividendo: ")
+    num1 = str_to_int(num1_str)
+    
+    if num1 is None:
+        return  # Salir si el primer número no es válido
+    
+    # Solicitar el segundo número (divisor)
+    num2_str = input("Ingrese el divisor: ")
+    num2 = str_to_int(num2_str)
+    
+    if num2 is None:
+        return  # Salir si el segundo número no es válido
+
+    # Verificar si el divisor es cero
+    if num2 == 0:
+        print("Error: División por cero no permitida.")
+        return
+
+    # Realizar la división
+    resultado = num1 // num2  # División entera
+
+    # Mostrar el resultado
+    print("Resultado de la división:", int_to_str(resultado))
+
+if __name__ == "__main__":
+    main()
+
+
+    Ensamblador
+    */
+
 
         .section .data
 prompt1: .asciz "Ingrese el dividendo: "
@@ -137,45 +187,3 @@ print_str:
 
 
 
-Python
-
-def str_to_int(string):
-    # Convierte una cadena a entero
-    try:
-        return int(string.strip())
-    except ValueError:
-        print("Error: Por favor, ingrese un número válido.")
-        return None
-
-def int_to_str(number):
-    # Convierte un número entero a una cadena
-    return str(number)
-
-def main():
-    # Solicitar el primer número (dividendo)
-    num1_str = input("Ingrese el dividendo: ")
-    num1 = str_to_int(num1_str)
-    
-    if num1 is None:
-        return  # Salir si el primer número no es válido
-    
-    # Solicitar el segundo número (divisor)
-    num2_str = input("Ingrese el divisor: ")
-    num2 = str_to_int(num2_str)
-    
-    if num2 is None:
-        return  # Salir si el segundo número no es válido
-
-    # Verificar si el divisor es cero
-    if num2 == 0:
-        print("Error: División por cero no permitida.")
-        return
-
-    # Realizar la división
-    resultado = num1 // num2  # División entera
-
-    # Mostrar el resultado
-    print("Resultado de la división:", int_to_str(resultado))
-
-if __name__ == "__main__":
-    main()
