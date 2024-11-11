@@ -1,3 +1,4 @@
+/*
 https://asciinema.org/a/Lzjs88OO1Uh9DtIxdIwdjPuMX
 
 # =========================================
@@ -64,6 +65,7 @@ if __name__ == "__main__":
 
 
 Ensamblador
+*/
 
 
 
