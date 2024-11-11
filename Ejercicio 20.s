@@ -1,3 +1,4 @@
+/*
 https://asciinema.org/a/688645
 
 # =========================================
@@ -58,6 +59,7 @@ print_matrix(result, "Matriz Resultado:")
 
 
 # Ensamblador
+*/
 
 .data
     // Primera matriz 3x3
