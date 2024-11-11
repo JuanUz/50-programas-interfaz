@@ -1,3 +1,4 @@
+/*
 https://asciinema.org/a/MuhkCVFzHgP1CbPKNiikStMN8
 
 // =========================================
@@ -6,6 +7,50 @@ https://asciinema.org/a/MuhkCVFzHgP1CbPKNiikStMN8
 // Descripción: Solicita un número al usuario y calcula la suma de los N primeros números naturales
 // Codigo en ensamblador y python
 // =========================================
+
+
+Python
+
+def str_to_int(string):
+    # Convierte una cadena a entero
+    try:
+        return int(string.strip())
+    except ValueError:
+        print("Error: Por favor, ingrese un número válido.")
+        return None
+
+def int_to_str(number):
+    # Convierte un número entero a una cadena
+    return str(number)
+
+def suma_n_naturales(n):
+    # Calcula la suma de los N primeros números naturales
+    suma = 0
+    for i in range(1, n + 1):
+        suma += i
+    return suma
+
+def main():
+    # Solicitar el número (N) al usuario
+    n_str = input("Ingrese un número (N): ")
+    n = str_to_int(n_str)
+    
+    if n is None:
+        return  # Salir si el número no es válido
+
+    # Calcular la suma de los N primeros números naturales
+    resultado = suma_n_naturales(n)
+
+    # Mostrar el resultado
+    print("La suma de los N primeros números naturales es:", int_to_str(resultado))
+
+if __name__ == "__main__":
+    main()
+
+
+Ensamblador
+*/
+
 
         .section .data
 prompt: .asciz "Ingrese un número (N): "
@@ -116,40 +161,3 @@ print_str:
 
 
 
-Python
-
-def str_to_int(string):
-    # Convierte una cadena a entero
-    try:
-        return int(string.strip())
-    except ValueError:
-        print("Error: Por favor, ingrese un número válido.")
-        return None
-
-def int_to_str(number):
-    # Convierte un número entero a una cadena
-    return str(number)
-
-def suma_n_naturales(n):
-    # Calcula la suma de los N primeros números naturales
-    suma = 0
-    for i in range(1, n + 1):
-        suma += i
-    return suma
-
-def main():
-    # Solicitar el número (N) al usuario
-    n_str = input("Ingrese un número (N): ")
-    n = str_to_int(n_str)
-    
-    if n is None:
-        return  # Salir si el número no es válido
-
-    # Calcular la suma de los N primeros números naturales
-    resultado = suma_n_naturales(n)
-
-    # Mostrar el resultado
-    print("La suma de los N primeros números naturales es:", int_to_str(resultado))
-
-if __name__ == "__main__":
-    main()
