@@ -1,3 +1,4 @@
+/*
 https://asciinema.org/a/688578
 
 # =========================================
@@ -66,6 +67,8 @@ if __name__ == "__main__":
 
 
 Ensamblador
+
+*/
 
 .section .data
 prompt:           .asciz "Ingrese una cadena para invertir: "
