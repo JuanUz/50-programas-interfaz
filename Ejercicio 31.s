@@ -1,3 +1,4 @@
+/*
 https://asciinema.org/a/688673
 
 # =========================================
@@ -51,7 +52,7 @@ print(f"El MCM de {numero1} y {numero2} es: {mcm}")
 
 Ensamblador
 
-
+*/
 
 /*
  * Calcula el Mínimo Común Múltiplo (MCM) entre dos números enteros positivos.
