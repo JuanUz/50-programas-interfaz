@@ -1,3 +1,4 @@
+/*
 https://asciinema.org/a/688600
 
 # =========================================
@@ -39,6 +40,8 @@ else:
 
 
 Ensamblador
+
+*/
         .section .data
 arreglo:         .quad 1, 3, 5, 8, 13, 21, 34, 55, 89  // Arreglo predefinido
 tam_arreglo:     .quad 9                              // Tamaño del arreglo
