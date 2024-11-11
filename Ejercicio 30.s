@@ -1,3 +1,4 @@
+/*
 https://asciinema.org/a/688671
 
 # =========================================
@@ -37,7 +38,7 @@ print(f"El MCD de {numero1} y {numero2} es: {mcd}")
 
 Ensamblador
 
-
+*/
 
 /*
  * Calcula el Máximo Común Divisor (MCD) entre dos números enteros positivos.
