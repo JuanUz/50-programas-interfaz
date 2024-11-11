@@ -1,3 +1,4 @@
+/*
 https://asciinema.org/a/688683
 
 # =========================================
@@ -45,7 +46,7 @@ print("El segundo elemento más grande en el segundo arreglo es:", segundo_mayor
 
 
 Ensamblador
-
+*/
 /*
  * Encuentra el segundo elemento más grande en dos arreglos de enteros.
  *
