@@ -1,3 +1,4 @@
+/*
 https://asciinema.org/a/688611
 
 # =========================================
@@ -25,7 +26,7 @@ if __name__ == "__main__":
 
 
 #Ensamblador
-
+*/
 
 .section .data
 mensaje_burbuja:  .asciz "Usando metodo de ordenamiento burbuja...\n"
