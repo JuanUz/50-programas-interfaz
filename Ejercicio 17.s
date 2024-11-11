@@ -1,3 +1,4 @@
+/*
 https://asciinema.org/a/688613
 
 # =========================================
@@ -37,6 +38,7 @@ if __name__ == "__main__":
 
 
 Ensamblador
+*/
 
         .section .data
 prompt:            .asciz "Ingrese una cadena: "
