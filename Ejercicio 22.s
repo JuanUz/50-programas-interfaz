@@ -1,3 +1,4 @@
+/*
 https://asciinema.org/a/688652
 
 # =========================================
@@ -37,15 +38,8 @@ print(f"Resultado de la conversión: {integer_result}")
 
 
 
+*/
 
-
-
-
-
-
-// Conversión de una cadena ASCII a un número entero en ARM64 Assembly
-// Autor: Tu Nombre
-// Convierte una cadena de dígitos ASCII en un número entero.
 
 .data
     // Cadena de dígitos ASCII de entrada
