@@ -1,3 +1,4 @@
+/*
 https://asciinema.org/a/688667
 
 # =========================================
@@ -32,7 +33,7 @@ print(f"Bits activados: {contador_bits_activos}")
 
 
 Ensamblador
-
+*/
 
 /*
  * Cuenta los bits activados (en 1) en cada carácter de una cadena.
