@@ -1,3 +1,4 @@
+/*
 https://asciinema.org/a/688674
 
 # =========================================
@@ -37,7 +38,7 @@ print(f"El resultado de {base}^{exponente} es: {resultado}")
 
 Ensamblador
 
-
+*/
 /*
  * Calcula la potencia x^n de un número dado.
  *
