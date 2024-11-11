@@ -1,3 +1,4 @@
+/*
 https://asciinema.org/a/TZou9mfai5UYuneH9Qyehp3fr
 
 # =========================================
@@ -43,7 +44,10 @@ print(f"Número convertido a ASCII: {ascii_result}")
 
 
 
-#Ensamblador
+Ensamblador
+
+*/
+
 
 .data
     // Número entero a convertir
