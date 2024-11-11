@@ -1,3 +1,4 @@
+/*
 https://asciinema.org/a/aVEL9KtDdkBVMSMlhpyRenEB5
 
 # =========================================
@@ -39,7 +40,7 @@ print(f"El binario es: {binario}")
 
 Ensamblador
 
-
+*/
 
 /*
  * Programa en ARM64: Convierte un número decimal a binario
