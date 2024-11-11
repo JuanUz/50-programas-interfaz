@@ -1,3 +1,4 @@
+/*
 https://asciinema.org/a/1Ljd9fztOMLU1ERQTfzXgTFkb
 
 // =========================================
@@ -6,8 +7,52 @@ https://asciinema.org/a/1Ljd9fztOMLU1ERQTfzXgTFkb
 // Descripción: Solicita dos números al usuario, los multiplica y muestra el resultado en consola
 // Codigo en ensamblador y en Python
 // =========================================
+   
 
-        .section .data
+Python
+
+def str_to_int(string):
+    # Convierte una cadena a entero
+    try:
+        return int(string.strip())
+    except ValueError:
+        print("Error: Por favor, ingrese un número válido.")
+        return None
+
+def int_to_str(number):
+    # Convierte un número entero a una cadena
+    return str(number)
+
+def main():
+    # Solicitar el primer número
+    num1_str = input("Ingrese el primer número: ")
+    num1 = str_to_int(num1_str)
+    
+    if num1 is None:
+        return  # Salir si el primer número no es válido
+    
+    # Solicitar el segundo número
+    num2_str = input("Ingrese el segundo número: ")
+    num2 = str_to_int(num2_str)
+    
+    if num2 is None:
+        return  # Salir si el segundo número no es válido
+
+    # Multiplicar los dos números
+    resultado = num1 * num2
+
+    # Mostrar el resultado
+    print("Resultado de la multiplicación:", int_to_str(resultado))
+
+if __name__ == "__main__":
+    main()
+
+
+
+Ensamblador
+*/
+
+ .section .data
 prompt1: .asciz "Ingrese el primer número: "
 prompt2: .asciz "Ingrese el segundo número: "
 resultado: .asciz "Resultado de la multiplicación: "
@@ -119,43 +164,4 @@ print_str:
         mov x0, #1                  // File descriptor 1 (salida estándar)
         svc 0
         ret
-
-
-Python
-
-def str_to_int(string):
-    # Convierte una cadena a entero
-    try:
-        return int(string.strip())
-    except ValueError:
-        print("Error: Por favor, ingrese un número válido.")
-        return None
-
-def int_to_str(number):
-    # Convierte un número entero a una cadena
-    return str(number)
-
-def main():
-    # Solicitar el primer número
-    num1_str = input("Ingrese el primer número: ")
-    num1 = str_to_int(num1_str)
-    
-    if num1 is None:
-        return  # Salir si el primer número no es válido
-    
-    # Solicitar el segundo número
-    num2_str = input("Ingrese el segundo número: ")
-    num2 = str_to_int(num2_str)
-    
-    if num2 is None:
-        return  # Salir si el segundo número no es válido
-
-    # Multiplicar los dos números
-    resultado = num1 * num2
-
-    # Mostrar el resultado
-    print("Resultado de la multiplicación:", int_to_str(resultado))
-
-if __name__ == "__main__":
-    main()
 
