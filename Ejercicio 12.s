@@ -1,3 +1,4 @@
+/*
 https://asciinema.org/a/688586
 
 # =========================================
@@ -30,13 +31,7 @@ print("El valor máximo es:", maximo)
 
 
 #Ensamblador
-
-
-// =========================================
-// Programa: Encontrar el máximo en un arreglo
-// Autor: [Tu Nombre]
-// Descripción: Encuentra el valor máximo en un arreglo precargado y muestra el resultado en consola.
-// =========================================
+*/
 
         .section .data
 mensaje_resultado: .asciz "El valor máximo es: "
