@@ -1,3 +1,4 @@
+/*
 https://asciinema.org/a/687840
 
 // =========================================
@@ -7,6 +8,50 @@ https://asciinema.org/a/687840
 // Codigo en ensamblador y python
 // =========================================
 
+
+//Python
+
+def str_to_int(string):
+    # Convertir cadena a entero
+    try:
+        return int(string.strip())
+    except ValueError:
+        print("Error: Por favor, ingrese un número válido.")
+        return None
+
+def int_to_str(number):
+    # Convertir entero a cadena
+    return str(number)
+
+def main():
+    # Solicitar el primer número
+    num1_str = input("Ingrese el primer número: ")
+    num1 = str_to_int(num1_str)
+    
+    if num1 is None:
+        return  # Salir si el primer número no es válido
+    
+    # Solicitar el segundo número
+    num2_str = input("Ingrese el segundo número: ")
+    num2 = str_to_int(num2_str)
+    
+    if num2 is None:
+        return  # Salir si el segundo número no es válido
+
+    # Restar el segundo número al primer número
+    resultado = num1 - num2
+
+    # Mostrar el resultado
+    print("Resultado de la resta:", int_to_str(resultado))
+
+if __name__ == "__main__":
+    main()
+
+
+Ensamblador
+    */
+
+    
         .section .data
 prompt1: .asciz "Ingrese el primer número: "
 prompt2: .asciz "Ingrese el segundo número: "
@@ -106,43 +151,4 @@ print_str:
         mov x0, #1                  // File descriptor 1 (salida estándar)
         svc 0
         ret
-
-
-//Python
-
-def str_to_int(string):
-    # Convertir cadena a entero
-    try:
-        return int(string.strip())
-    except ValueError:
-        print("Error: Por favor, ingrese un número válido.")
-        return None
-
-def int_to_str(number):
-    # Convertir entero a cadena
-    return str(number)
-
-def main():
-    # Solicitar el primer número
-    num1_str = input("Ingrese el primer número: ")
-    num1 = str_to_int(num1_str)
-    
-    if num1 is None:
-        return  # Salir si el primer número no es válido
-    
-    # Solicitar el segundo número
-    num2_str = input("Ingrese el segundo número: ")
-    num2 = str_to_int(num2_str)
-    
-    if num2 is None:
-        return  # Salir si el segundo número no es válido
-
-    # Restar el segundo número al primer número
-    resultado = num1 - num2
-
-    # Mostrar el resultado
-    print("Resultado de la resta:", int_to_str(resultado))
-
-if __name__ == "__main__":
-    main()
 
