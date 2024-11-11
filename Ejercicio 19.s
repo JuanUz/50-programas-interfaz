@@ -1,3 +1,4 @@
+/*
 https://asciinema.org/a/688639
 
 # =========================================
@@ -56,6 +57,7 @@ if __name__ == "__main__":
 
 
 Ensamblador
+*/
 
         .section .data
 prompt_matrizA: .asciz "Ingrese los elementos de la matriz A (3x3):\n"
