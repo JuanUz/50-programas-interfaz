@@ -1,3 +1,4 @@
+/*
 https://asciinema.org/a/jOS7fVADpp9xfO0VA1vu7xouS
 
 # =========================================
@@ -60,15 +61,10 @@ if __name__ == "__main__":
 
 
 
-
-
-
-
-
-
-
-
 #Ensamblador
+
+*/
+
         .section .data
 prompt: .asciz "Ingrese un número para calcular el factorial: "
 resultado: .asciz "El factorial del número es: "
