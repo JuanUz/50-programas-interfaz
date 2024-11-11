@@ -1,3 +1,4 @@
+/*
 https://asciinema.org/a/688682
 
 # =========================================
@@ -38,7 +39,7 @@ for elemento in rotado_izquierda:
 
 
 Ensamblador
-
+*/
 
 /*
  * Rota los elementos de un arreglo hacia la derecha.
