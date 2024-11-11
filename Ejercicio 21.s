@@ -1,3 +1,4 @@
+/*
 https://asciinema.org/a/688648
 
 # =========================================
@@ -54,7 +55,7 @@ print_matrix(matrixT, "Matriz Transpuesta")
 
 
 Ensamblador
-
+*/
 
 .data
     // Matriz 3x3 de entrada
