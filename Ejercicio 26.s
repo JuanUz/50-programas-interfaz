@@ -1,3 +1,4 @@
+/*
 https://asciinema.org/a/688663
 
 # =========================================
@@ -32,7 +33,8 @@ print(f"Resultado de XOR: {resultado_xor}")
 
 
 
-#Ensamblador
+Ensamblador
+*/
 
 
 /*
