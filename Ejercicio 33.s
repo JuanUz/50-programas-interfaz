@@ -1,3 +1,4 @@
+/*
 https://asciinema.org/a/688675
 
 # =========================================
@@ -24,6 +25,8 @@ print(f"La suma de los elementos es: {suma}")
 
 
 Ensamblador
+
+*/
 
 /*
  * Calcula la suma de los elementos en un arreglo.
