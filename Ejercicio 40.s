@@ -1,3 +1,4 @@
+/*
 https://asciinema.org/a/688708
 
 # =========================================
@@ -29,7 +30,7 @@ print(f"El decimal es: {decimal}")
 
 
 Ensamblador
-
+*/
 
 /*
  * Programa en ARM64: Convierte una cadena binaria a decimal
