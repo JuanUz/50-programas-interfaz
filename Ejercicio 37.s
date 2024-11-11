@@ -1,3 +1,4 @@
+/*
 https://asciinema.org/a/688687
 
 # =========================================
@@ -30,7 +31,7 @@ print(f"El contenido de la pila es: {acumulador}")
 
 
 Ensamblador
-
+*/
 
 /*
  * Programa de ejemplo en ARM64: Calcula el contenido acumulado en una pila
