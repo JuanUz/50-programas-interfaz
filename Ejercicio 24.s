@@ -1,3 +1,4 @@
+/*
 https://asciinema.org/a/688657
 
 # =========================================
@@ -36,7 +37,7 @@ print(f"Longitud de la cadena: {longitud}")
 
 Ensamblador
 
-
+*/
 
 /* 
  * Calcula la longitud de una cadena de números.
