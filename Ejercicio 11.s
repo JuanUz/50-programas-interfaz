@@ -1,3 +1,4 @@
+/*
 https://asciinema.org/a/688581
 
 # =========================================
@@ -62,7 +63,7 @@ if __name__ == "__main__":
 
 
 Ensamblador
-
+*/
 
 
  .section .data
