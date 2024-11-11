@@ -1,3 +1,4 @@
+/*
 https://asciinema.org/a/688666
 
 # =========================================
@@ -38,7 +39,8 @@ print(f"Bits alternados: {resultado_alternar}")
 
 
 
-#Ensamblador
+Ensamblador
+*/
 
 
 
