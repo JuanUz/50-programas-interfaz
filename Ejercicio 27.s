@@ -1,3 +1,4 @@
+/*
 https://asciinema.org/a/688664
 
 # =========================================
@@ -27,7 +28,8 @@ for char in cadena:
 
 
 
-#Ensamblador
+Ensamblador
+*/
 
 /*
  * Realiza desplazamientos a la izquierda y a la derecha en una cadena.
