@@ -1,3 +1,4 @@
+/*
 https://asciinema.org/a/688574
 
 # =========================================
@@ -26,7 +27,7 @@ if __name__ == "__main__":
 
 
 Ensamblador
-
+*/
 
 .section .data
 mensaje: .asciz "La serie de Fibonacci hasta 200 es:\n"
