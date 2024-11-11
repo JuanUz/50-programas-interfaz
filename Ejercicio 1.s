@@ -1,3 +1,4 @@
+/*
 https://asciinema.org/a/Izj832w5VomBef1Yf2arvWBJJ
 
 // =========================================
@@ -6,6 +7,38 @@ https://asciinema.org/a/Izj832w5VomBef1Yf2arvWBJJ
 // Descripción: Solicita una temperatura en grados Celsius, la convierte a Fahrenheit y muestra el resultado
 // Solucion en ensamblador y Python
 // =========================================
+
+Python
+
+def celsius_to_fahrenheit(celsius):
+    # Fórmula para convertir Celsius a Fahrenheit
+    fahrenheit = (celsius * 9 / 5) + 32
+    return fahrenheit
+
+def main():
+    # Solicitar la temperatura en grados Celsius
+    celsius_str = input("Ingrese la temperatura en grados Celsius: ")
+    
+    # Convertir la entrada a un número entero
+    try:
+        celsius = int(celsius_str)
+    except ValueError:
+        print("Por favor, ingrese un número válido.")
+        return
+    
+    # Convertir de Celsius a Fahrenheit
+    fahrenheit = celsius_to_fahrenheit(celsius)
+    
+    # Mostrar el resultado
+    print("Temperatura en Fahrenheit:", fahrenheit)
+
+if __name__ == "__main__":
+    main()
+
+
+Ensamblador
+*/
+
 
         .section .data
 prompt:           .asciz "Ingrese la temperatura en grados Celsius: "
@@ -109,37 +142,4 @@ print_str:
 
 
 
-
-Python
-
-# =========================================
-# Programa: Conversión de Celsius a Fahrenheit
-# Autor: Garcia Ornelas Juan Carlos
-# Descripción: Solicita una temperatura en grados Celsius, la convierte a Fahrenheit y muestra el resultado
-# =========================================
-
-def celsius_to_fahrenheit(celsius):
-    # Fórmula para convertir Celsius a Fahrenheit
-    fahrenheit = (celsius * 9 / 5) + 32
-    return fahrenheit
-
-def main():
-    # Solicitar la temperatura en grados Celsius
-    celsius_str = input("Ingrese la temperatura en grados Celsius: ")
-    
-    # Convertir la entrada a un número entero
-    try:
-        celsius = int(celsius_str)
-    except ValueError:
-        print("Por favor, ingrese un número válido.")
-        return
-    
-    # Convertir de Celsius a Fahrenheit
-    fahrenheit = celsius_to_fahrenheit(celsius)
-    
-    # Mostrar el resultado
-    print("Temperatura en Fahrenheit:", fahrenheit)
-
-if __name__ == "__main__":
-    main()
 
