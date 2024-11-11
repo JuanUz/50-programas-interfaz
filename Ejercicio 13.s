@@ -1,3 +1,4 @@
+/*
 https://asciinema.org/a/688591
 
 # =========================================
@@ -29,6 +30,7 @@ print("El valor mínimo es:", minimo)
 
 
 #Ensamblador
+*/
 
  .section .data
 mensaje_resultado: .asciz "El valor mínimo es: "
