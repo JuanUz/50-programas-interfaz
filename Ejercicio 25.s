@@ -1,3 +1,4 @@
+/*
 https://asciinema.org/a/688659
 
 # =========================================
@@ -45,7 +46,8 @@ print(f"Número de consonantes: {consonantes}")
 
 
 
-#Ensamblador
+Ensamblador
+*/
 
 
 
